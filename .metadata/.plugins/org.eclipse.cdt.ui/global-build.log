@@ -1,0 +1,24 @@
+21:09:53 **** Incremental Build of configuration Debug for project HSI_Measurement ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "HSI_Measurement.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\alica\OneDrive\Desktop\github\Software_Development\HSI_Measurement\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HSI_Measurement.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: HSI_Measurement.elf
+ 
+arm-none-eabi-size   HSI_Measurement.elf 
+arm-none-eabi-objdump -h -S  HSI_Measurement.elf  > "HSI_Measurement.list"
+arm-none-eabi-objcopy  -O binary  HSI_Measurement.elf  "HSI_Measurement.bin"
+   text	   data	    bss	    dec	    hex	filename
+    784	      8	   1568	   2360	    938	HSI_Measurement.elf
+Finished building: default.size.stdout
+ 
+Finished building: HSI_Measurement.bin
+Finished building: HSI_Measurement.list
+ 
+ 
+21:09:59 **** Incremental Build of configuration Debug for project HSI_Measurement ****
+make -j12 all 
+arm-none-eabi-size   HSI_Measurement.elf 
+   text	   data	    bss	    dec	    hex	filename
+    784	      8	   1568	   2360	    938	HSI_Measurement.elf
+Finished building: default.size.stdout
+ 
