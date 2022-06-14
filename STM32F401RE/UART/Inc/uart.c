@@ -5,4 +5,6 @@
  *      Author: alica
  */
 
+//ENABLE CLOCK ACCESS TO UART
+
 

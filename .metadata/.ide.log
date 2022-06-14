@@ -712,3 +712,31 @@
 2022-06-09 22:38:22,494 [INFO] ApiDb:280 - User favorites MCUs=[]
 2022-06-09 22:38:22,495 [INFO] ApiDb:276 - Save user favorites file C:\Users\alica/.stm32cubeide/favorites.boards.txt: 0 item(s)
 2022-06-09 22:38:22,495 [INFO] ApiDb:280 - User favorites Boards=[]
+2022-06-09 23:40:56,065 [INFO] MainUpdater:2729 - connection check result : 10
+2022-06-09 23:40:56,342 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-06-09 23:40:56,373 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\alica\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-06-09 23:40:56,378 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-06-09 23:40:56,382 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-06-09 23:40:56,862 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-06-09 23:40:56,863 [INFO] DetailPanel:310 - Set advertising image to C:/Users/alica/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-06-09 23:40:57,217 [INFO] ApiDb:479 - Connected to CubeFinder SQLite database (C:\Users\alica\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-06-09 23:40:57,901 [INFO] DbExamplesSqlite:408 - Ignored 24 examples not supported by CubeIDE
+2022-06-09 23:40:57,902 [INFO] DbExamplesSqlite:409 - Found 6144 examples active
+2022-06-09 23:40:57,902 [INFO] DbExamplesSqlite:410 - Found 64 examples obsolete
+2022-06-09 23:40:57,902 [INFO] DbExamplesSqlite:411 - Found 0 examples under development
+2022-06-09 23:40:57,902 [INFO] DbExamplesSqlite:412 - Found 96 examples not building
+2022-06-09 23:40:57,921 [INFO] DbExamplesSqlite:108 - CubeFinder database Data Model version=2.1
+2022-06-09 23:40:57,921 [INFO] DbExamplesSqlite:109 - CubeFinder database Configuration version=3.0.30
+2022-06-09 23:40:57,922 [INFO] DbExamplesSqlite:110 - CubeFinder database generation date=2022-04-28 (1651152914)
+2022-06-09 23:40:57,922 [INFO] DbExamplesSqlite:111 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.0, STM32Cube_FW_F7_V1.16.2, STM32Cube_FW_G0_V1.5.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.0, STM32Cube_FW_WB_V1.13.3, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.0.0, X-CUBE-AZRTOS-F7_V1.0.0, X-CUBE-AZRTOS-G0_V1.0.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.2.2, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V5.2.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-NFC4_V2.0.3, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V3.1.0, X-CUBE-SUBG2_V4.2.0]
+2022-06-09 23:40:57,923 [INFO] DbExamples:129 - Found 6216 examples
+2022-06-09 23:40:58,735 [ERROR] DbExamples:205 - Found 106 examples with invalid data (board or MCU)
+2022-06-09 23:40:58,735 [INFO] DbExamples:221 - Found 74 boards with related examples
+2022-06-09 23:40:58,751 [INFO] DbExamples:234 - Found 62 MCUs with related examples
+2022-06-09 23:40:58,786 [INFO] ApiDb:251 - Load user favorites file C:\Users\alica/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2022-06-09 23:40:58,786 [INFO] ApiDb:255 - User favorites Examples=[]
+2022-06-09 23:40:58,786 [INFO] DbExamples:255 - Set 0 / 0 favorites Examples
+2022-06-09 23:40:59,039 [INFO] MultiScanPanel:799 - Auto Refresh Data is not needed
+2022-06-09 23:41:14,967 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-06-09 23:41:14,976 [INFO] ApiDb:276 - Save user favorites file C:\Users\alica/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-06-09 23:41:14,976 [INFO] ApiDb:280 - User favorites MCUs=[]
